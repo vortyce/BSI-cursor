@@ -28,7 +28,7 @@ Acesse: http://localhost:8000/docs (Swagger) ou http://localhost:8000/health (St
 
 ### Frontend
 ```bash
-cd bsi-frontend
+cd frontend
 npm run dev
 ```
 Acesse: http://localhost:5173
