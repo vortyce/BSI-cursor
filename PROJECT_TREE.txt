@@ -1,0 +1,136 @@
+audit_work_phase_11_5/
++-- bsi-backend/
+    +-- app/
+        +-- api/
+            +-- v1/
+                +-- analytics.py
+                +-- interpretations.py
+                +-- outcomes.py
+                +-- portfolio.py
+                +-- system.py
+                +-- webhooks.py
+        +-- core/
+            +-- config.py
+            +-- context.py
+            +-- errors.py
+            +-- logging_utils.py
+            +-- market_context.py
+            +-- middleware.py
+            +-- prompts.py
+            +-- response_utils.py
+            +-- seed_data.py
+        +-- db/
+            +-- base.py
+            +-- session.py
+        +-- enums/
+            +-- decision.py
+            +-- portfolio.py
+            +-- signal.py
+        +-- integrations/
+            +-- llm/
+                +-- base.py
+                +-- factory.py
+                +-- openai_client.py
+        +-- models/
+            +-- allocation_item.py
+            +-- allocation_recommendation.py
+            +-- portfolio_action_item.py
+            +-- portfolio_decision.py
+            +-- portfolio_position.py
+            +-- portfolio_profile.py
+            +-- portfolio_review.py
+            +-- raw_webhook_log.py
+            +-- signal.py
+            +-- signal_interpretation.py
+            +-- signal_outcome.py
+        +-- schemas/
+            +-- interpretation.py
+            +-- portfolio.py
+            +-- response.py
+            +-- signal.py
+            +-- webhook.py
+        +-- services/
+            +-- analytics_service.py
+            +-- decision_service.py
+            +-- interpretation_service.py
+            +-- outcome_service.py
+            +-- portfolio_review_service.py
+            +-- portfolio_service.py
+            +-- system_service.py
+            +-- webhook_ingestion_service.py
+    +-- docs/
+        +-- DOMAIN_GUIDE.md
+    +-- .env.demo.example
+    +-- .env.example
+    +-- .env.minimal.example
+    +-- .env.real.example
+    +-- bsi_trend_follower.pinescript
+    +-- main.py
+    +-- requirements.txt
+    +-- seed_db.py
++-- docs/
+    +-- history/
+        +-- CHANGELOG_FASE_5_PACKAGE_FINAL.md
+        +-- CHANGELOG_FASE_5_SEEDED_DEMO.md
+        +-- CHANGELOG_FASE_6.md
+        +-- CHANGELOG_FASE_6_FIX.md
+        +-- CHANGELOG_FASE_6_MICROBUGFIX.md
+    +-- ARCHITECTURE.md
++-- frontend/
+    +-- src/
+        +-- components/
+            +-- ActionList.tsx
+            +-- AllocationSummary.tsx
+            +-- AuditTrail.tsx
+            +-- DecisionCenter.tsx
+            +-- PerformanceDashboard.tsx
+            +-- PortfolioDiagnostics.tsx
+            +-- PortfolioManagement.tsx
+            +-- PortfolioTab.tsx
+            +-- ProfileForm.tsx
+            +-- SignalFilters.tsx
+            +-- SignalsTable.tsx
+        +-- pages/
+            +-- SignalDetail.tsx
+        +-- services/
+            +-- api.ts
+            +-- portfolioApi.ts
+        +-- types/
+            +-- portfolio.ts
+            +-- signal.ts
+        +-- App.tsx
+        +-- index.css
+        +-- main.tsx
+    +-- index.html
+    +-- package-lock.json
+    +-- package.json
+    +-- postcss.config.js
+    +-- tailwind.config.js
+    +-- tsconfig.json
+    +-- tsconfig.node.json
+    +-- vite.config.ts
++-- .env.example
++-- .gitignore
++-- CHANGELOG.md
++-- CHANGELOG_FASE_10.md
++-- CHANGELOG_FASE_10_FIX.md
++-- CHANGELOG_FASE_11_FINAL.md
++-- CHANGELOG_FASE_11_FINALTIGHT.md
++-- CHANGELOG_FASE_11_FIX.md
++-- CHANGELOG_FASE_11_MICROFIX.md
++-- CHANGELOG_FASE_7.md
++-- CHANGELOG_FASE_8_FIX.md
++-- CHANGELOG_FASE_8_LASTMILE.md
++-- CHANGELOG_FASE_8_MICROFINAL.md
++-- CHANGELOG_FASE_9.md
++-- CHANGELOG_FASE_9_FIX.md
++-- CHANGELOG_FASE_9_MICROFINAL.md
++-- NEXT_STEPS.md
++-- OPEN_ISSUES.md
++-- PROJECT_TREE.txt
++-- README.md
++-- README_OPERATIONAL.md
++-- README_PHASE_10.md
++-- README_PHASE_11.md
++-- README_PHASE_9.md
++-- README_REVIEW.md
