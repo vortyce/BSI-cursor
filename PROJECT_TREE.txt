@@ -102,8 +102,8 @@ audit_work_phase_11_5/
         +-- index.css
         +-- main.tsx
     +-- index.html
-    +-- package-lock.json
     +-- package.json
+    +-- package-lock.json
     +-- postcss.config.js
     +-- tailwind.config.js
     +-- tsconfig.json

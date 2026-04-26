@@ -26,6 +26,11 @@ Thumbs.db
 
 # Local/generated project artifacts
 *.zip
+.cache/
+cache/
+tmp/
+temp/
+*.tmp
 audit_temp/
 review_temp/
 lastmile_temp/

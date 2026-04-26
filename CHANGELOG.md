@@ -1,5 +1,20 @@
 # Changelog - BSI Terminal Fase 11.5 FIX
 
+## [1.11.5-release-hygiene] - 2026-04-26
+
+### Higiene de Release
+
+- Removida a pasta duplicada `bsi-frontend/` do pacote de trabalho.
+- Removido `node_modules` associado à pasta duplicada, evitando artefatos de dependências no pacote final.
+- Confirmado que apenas `frontend/` permanece como frontend oficial do projeto.
+- Confirmado que não houve alteração funcional, de regra de negócio ou de arquitetura.
+
+### Arquivos Alterados
+
+- `.gitignore`
+- `CHANGELOG.md`
+- `PROJECT_TREE.txt`
+
 ## [1.11.5-allocation-fix] - 2026-04-26
 
 ### Problemas Corrigidos
