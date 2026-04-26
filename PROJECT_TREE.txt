@@ -70,11 +70,30 @@
     +-- seed_db.py
 +-- docs/
     +-- history/
-        +-- CHANGELOG_FASE_5_PACKAGE_FINAL.md
-        +-- CHANGELOG_FASE_5_SEEDED_DEMO.md
-        +-- CHANGELOG_FASE_6.md
-        +-- CHANGELOG_FASE_6_FIX.md
-        +-- CHANGELOG_FASE_6_MICROBUGFIX.md
+        +-- changelogs/
+            +-- CHANGELOG_FASE_10.md
+            +-- CHANGELOG_FASE_10_FIX.md
+            +-- CHANGELOG_FASE_11_FINAL.md
+            +-- CHANGELOG_FASE_11_FINALTIGHT.md
+            +-- CHANGELOG_FASE_11_FIX.md
+            +-- CHANGELOG_FASE_11_MICROFIX.md
+            +-- CHANGELOG_FASE_5_PACKAGE_FINAL.md
+            +-- CHANGELOG_FASE_5_SEEDED_DEMO.md
+            +-- CHANGELOG_FASE_6.md
+            +-- CHANGELOG_FASE_6_FIX.md
+            +-- CHANGELOG_FASE_6_MICROBUGFIX.md
+            +-- CHANGELOG_FASE_7.md
+            +-- CHANGELOG_FASE_8_FIX.md
+            +-- CHANGELOG_FASE_8_LASTMILE.md
+            +-- CHANGELOG_FASE_8_MICROFINAL.md
+            +-- CHANGELOG_FASE_9.md
+            +-- CHANGELOG_FASE_9_FIX.md
+            +-- CHANGELOG_FASE_9_MICROFINAL.md
+        +-- readmes/
+            +-- README_PHASE_10.md
+            +-- README_PHASE_11.md
+            +-- README_PHASE_9.md
+            +-- README_REVIEW.md
     +-- ARCHITECTURE.md
 +-- frontend/
     +-- src/
@@ -102,8 +121,8 @@
         +-- index.css
         +-- main.tsx
     +-- index.html
-    +-- package.json
     +-- package-lock.json
+    +-- package.json
     +-- postcss.config.js
     +-- tailwind.config.js
     +-- tsconfig.json
@@ -111,26 +130,10 @@
     +-- vite.config.ts
 +-- .env.example
 +-- .gitignore
++-- BSI-cursor.code-workspace
 +-- CHANGELOG.md
-+-- CHANGELOG_FASE_10.md
-+-- CHANGELOG_FASE_10_FIX.md
-+-- CHANGELOG_FASE_11_FINAL.md
-+-- CHANGELOG_FASE_11_FINALTIGHT.md
-+-- CHANGELOG_FASE_11_FIX.md
-+-- CHANGELOG_FASE_11_MICROFIX.md
-+-- CHANGELOG_FASE_7.md
-+-- CHANGELOG_FASE_8_FIX.md
-+-- CHANGELOG_FASE_8_LASTMILE.md
-+-- CHANGELOG_FASE_8_MICROFINAL.md
-+-- CHANGELOG_FASE_9.md
-+-- CHANGELOG_FASE_9_FIX.md
-+-- CHANGELOG_FASE_9_MICROFINAL.md
 +-- NEXT_STEPS.md
 +-- OPEN_ISSUES.md
 +-- PROJECT_TREE.txt
 +-- README.md
 +-- README_OPERATIONAL.md
-+-- README_PHASE_10.md
-+-- README_PHASE_11.md
-+-- README_PHASE_9.md
-+-- README_REVIEW.md

@@ -1,5 +1,12 @@
 # Changelog - BSI Terminal Fase 11.5 FIX
 
+## Organização documental
+
+- Movidos READMEs históricos para docs/history/readmes/
+- Movidos changelogs de fase para docs/history/changelogs/
+- Mantidos na raiz apenas documentos operacionais e de visão geral
+- Nenhuma alteração funcional realizada
+
 ## [1.11.5-release-hygiene] - 2026-04-26
 
 ### Higiene de Release

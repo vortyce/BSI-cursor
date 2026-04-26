@@ -40,6 +40,13 @@ npm run dev
 - API: http://localhost:8000
 - Frontend: http://localhost:5173
 
+## Histórico do projeto
+
+Os documentos históricos de fases, auditorias e changelogs detalhados estão organizados em:
+
+- docs/history/changelogs/
+- docs/history/readmes/
+
 ## Segurança
 
 Nunca suba `.env` com credenciais reais. Use `.env.example` como template e mantenha credenciais apenas no ambiente local ou no gerenciador de segredos do deploy.
